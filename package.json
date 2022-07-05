@@ -2,16 +2,31 @@
   "name": "oniq-build",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "init.js",
   "scripts": {
-    "build": "node ./config/build/esbuild-config.js"
+    "build": "cross-env MODE=prod node ./config/build/esbuild-config.js",
+    "build:dev": "cross-env MODE=dev node ./config/build/esbuild-config.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dom": "^0.0.3",
     "esbuild": "^0.14.48",
     "node": "^18.4.0",
-    "pass": "^0.2.0"
+    "pass": "^0.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ONIQdevv/es-build.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ONIQdevv/es-build/issues"
+  },
+  "homepage": "https://github.com/ONIQdevv/es-build#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3"
   }
 }
