@@ -1,0 +1,17 @@
+{
+  "name": "oniq-build",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./config/build/esbuild-config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.14.48",
+    "node": "^18.4.0",
+    "pass": "^0.2.0"
+  }
+}
