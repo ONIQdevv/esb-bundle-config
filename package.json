@@ -12,7 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "dom": "^0.0.3",
-    "esbuild": "^0.14.48",
     "node": "^18.4.0",
     "pass": "^0.2.0",
     "react": "^18.2.0",
@@ -27,6 +26,7 @@
   },
   "homepage": "https://github.com/ONIQdevv/es-build#readme",
   "devDependencies": {
-    "cross-env": "^7.0.3"
+    "cross-env": "^7.0.3",
+    "esbuild": "^0.15.8"
   }
 }
