@@ -1,0 +1,22 @@
+#-----------------------#
+# Uncomment to ignore all
+# |
+# |
+# v
+#*
+#-----------------------#
+
+# Ignore already built files
+build
+public
+
+#Ignore package files
+package.json
+package-lock.json
+tsconfig.json
+.prettierrc.json
+.gitignore
+
+# Add more yourth
+# DON't IGNORE FILES LIKE:
+# App.tsx , index.css etc.
